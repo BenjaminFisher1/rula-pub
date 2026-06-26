@@ -1,0 +1,8 @@
+{
+  "name": "Python 3",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose",
+  "postCreateCommand": "pip3 install --user -r requirements.txt"
+}

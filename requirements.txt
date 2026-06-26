@@ -1,0 +1,5 @@
+python-dotenv
+requests
+click
+psycopg2-binary
+cryptography
